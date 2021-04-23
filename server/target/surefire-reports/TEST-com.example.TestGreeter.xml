@@ -1,66 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.example.TestGreeter" time="0.089" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.example.TestGreeter" time="0.096" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/amd64"/>
-    <property name="java.vm.version" value="25.252-b09"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/opt/hello-world"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="JOB_NAME" value="deploy_to_docker_host"/>
+    <property name="PWD" value="/"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/12/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/sbin:/usr/sbin:/bin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="dd4ed5f4f44b1772"/>
+    <property name="POM_ARTIFACTID" value="maven-project"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Maven Project"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_282-b08"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="deploy_to_docker_host"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/12/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/amd64"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="05336f2e517dfa17f5db29f1374f53a6541df587"/>
+    <property name="java.version" value="1.8.0_282"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="12"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="4.14.225-168.357.amzn2.x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/12/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/12/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=":"/>
+    <property name="javax.accessibility.assistive_technologies" value="org.GNOME.Accessibility.AtkWrapper"/>
+    <property name="java.vm.version" value="25.282-b08"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="05336f2e517dfa17f5db29f1374f53a6541df587"/>
+    <property name="JOB_DISPLAY_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/display/redirect"/>
+    <property name="SHLVL" value="2"/>
+    <property name="_" value="/etc/alternatives/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="pom"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="in.valaxy"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-deploy_to_docker_host-12"/>
+    <property name="JENKINS_SERVER_COOKIE" value="dd4ed5f4f44b1772"/>
+    <property name="HUDSON_URL" value="http://18.219.91.141:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven/boot/plexus-classworlds-2.6.0.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven /var/cache/jenkins/war/WEB-INF/lib/remoting-4.6.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 40363"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/opt/hello-world"/>
-    <property name="java.runtime.version" value="1.8.0_252-b09"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/endorsed"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven"/>
     <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven/bin"/>
+    <property name="BUILD_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/12/"/>
+    <property name="java.vendor.url.bug" value="https://forums.aws.amazon.com/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/var/lib/jenkins/workspace/deploy_to_docker_host"/>
+    <property name="JOB_URL" value="http://18.219.91.141:8080/job/deploy_to_docker_host/"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/opt/apache-maven-3.6.3/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/opt/apache-maven-3.6.3/conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.14.177-139.254.amzn2.x86_64"/>
-    <property name="library.jansi.path" value="/opt/apache-maven-3.6.3/lib/jansi-native"/>
-    <property name="user.home" value="/root"/>
-    <property name="user.timezone" value="UTC"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="MAVEN_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/usr_share_apache-maven"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="12"/>
+    <property name="JENKINS_URL" value="http://18.219.91.141:8080/"/>
+    <property name="GIT_BRANCH" value="origin/dev"/>
+    <property name="GIT_COMMIT" value="05336f2e517dfa17f5db29f1374f53a6541df587"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="root"/>
-    <property name="java.class.path" value="/opt/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_252"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/opt/apache-maven-3.6.3"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/var/lib/jenkins/workspace/deploy_to_docker_host@tmp"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/deploy_to_docker_host"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="jenkins"/>
+    <property name="GIT_URL" value="https://github.com/reshmakar/devops"/>
   </properties>
-  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeTheOneBeingGreeted" time="0.007"/>
-  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeGreetingPhrase" time="0.004"/>
+  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeTheOneBeingGreeted" time="0.006"/>
+  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeGreetingPhrase" time="0.007"/>
 </testsuite>
